@@ -1,0 +1,11 @@
+# Direct third-party imports used by the Python pipeline.
+# Versions are intentionally unpinned: the original environment was not recorded.
+# Full MATLAB/Python integration has not been tested in a fresh environment.
+pandas
+numpy
+openpyxl
+matplotlib
+plotly
+
+# Optional static Plotly PNG export requires kaleido (and its browser requirements).
+# Install separately if needed: python -m pip install kaleido
